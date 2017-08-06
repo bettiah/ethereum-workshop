@@ -1,35 +1,21 @@
 # Getting Started
 * Please download and install the Parity client. 
-  They were download earlier in the day from 
   https://github.com/paritytech/parity/releases/tag/v1.7.0
 
-* Install but dont start yet.
-
-* Open a shell (terminal) / command prompt (cmd.exe) and find your parity installation
-  C:\Program Files\Parity\Parity
-
-  Note: Stop the currently running instance.
-
-* Restore
-
-`parity --chain testnet -- restore /tmp/kovan.db`
-`parity --chain testnet -- restore \Users\me\Downloads\kovan.db`
-
-* Start parity for Kovan test network
-
+* Start parity for Kovan test network: 
 `parity --peers 5 --chain testnet -l own_tx=trace`
 
-* open parity ui
+* Open parity ui : `parity ui`
 
-`parity ui`
+* Create an account, use an easy password
 
-* create an account, use an easy password
+* We need Ether in order to get started.
+  there are [many](https://github.com/kovan-testnet/faucet) ways.
 
-* We need Ether in order to get started
-  there are many ways:
-  https://github.com/kovan-testnet/faucet
-  easiest is to simply ask: https://gitter.im/kovan-testnet/faucet.
-  Login and give out your testnet address 0x....
+  Easiest is to simply [ask](https://gitter.im/kovan-testnet/faucet).
+  Login and give out your test network address 0x....
+
+* An alternative is to use your private chain : `parity --chain dev`
 
 # Auction Contract
 
