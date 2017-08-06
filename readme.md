@@ -27,7 +27,7 @@ Following can be used as a guide to play with it. 2 or more accounts wiil be nee
 - Send 0.01 ETH to it from Account B. Account B will now lead the auction.
 - Send 0.02 ETH to it from Account A. Account A will lead the auction, and B's ETH will be returned.
 - Now Deploy the Bidder contract from Account B.
-- Call Bidder's placeBid function with address of Auction & 0.03 ETH. Give it around 60K gas.
+- Call Bidder's placeBid function with address of Auction & 0.03 ETH from account B. Give it around 60K gas.
 - The Bidder Account should lead the auction. A's ETH should be returned.
 - Now any other attempts to send ETH to Auction should be rejected.
 
